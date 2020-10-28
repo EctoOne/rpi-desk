@@ -1,0 +1,17 @@
+Thuar Custom Actions:
+
+Open Thunar as root here
+pkexec thunar %f
+* (directorys)
+
+Edit as root
+pkexec mousepad %f
+* (texts)
+
+Run script
+bash -c %f
+*.sh (texts/other)
+
+Run script in Terminal
+xfce4-terminal -H -x %f
+*.sh (texts/other)

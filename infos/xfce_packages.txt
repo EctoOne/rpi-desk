@@ -1,0 +1,22 @@
+sudo apt install --no-install-recommends
+    xserver-xorg
+sudo apt install
+    xfce4
+    xfce4-terminal
+    xfce4-taskmanager
+    xfce4-power-manager
+    xfce4-datetime-plugin
+    xfce4-netload-plugin
+    xfce4-appmenu-plugin
+    thunar-archive-plugin
+    thunar-gtkhash
+    menulibre
+    mousepad
+    pragha
+    ristretto
+    vince
+    gvfs-backends 
+    gvfs-fuse
+    lightdm
+    lightdm-gtk-greeter-settings
+    synaptic 

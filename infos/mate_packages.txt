@@ -1,0 +1,34 @@
+sudo apt install --no-install-recommends
+    mate-desktop-environment-core
+    mate-themes mate-session-manager
+    xinit
+    mate-terminal
+    mate-applets
+    pluma
+    xserver-xorg
+sudo apt install
+    mate-desktop
+    caja-admin
+    caja-gtkhash
+    caja-open-terminal
+    caja-wallpaper
+    atril
+    engrampa
+    eom
+    mozo
+    mate-applet-appmenu
+    mate-applet-brisk-menu
+    mate-media
+    mate-menu
+    mate-power-manager
+    mate-screensaver
+    mate-tweak
+    mate-utils
+    mate-window-buttons-applet
+    mate-window-menu-applet
+    dconf-editor
+    gnome-system-tools
+    lightdm
+    lightdm-gtk-greeter-settings
+
+

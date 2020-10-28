@@ -1,0 +1,7 @@
+Chromium Keyring Fix (Doesn't really work):
+exo-open --launch WebBrowser %u --password-store=basic
+chromium-browser %U --password-store=basic
+
+Chromium Addons:
+https://chrome.google.com/webstore/detail/dark-background-and-light/cdcoopnlkdlmphjpjggdmhohkiklonkh
+https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm
