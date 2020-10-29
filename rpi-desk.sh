@@ -15,14 +15,12 @@ actcheckbox=black,lightgray
 '
 
 function installMATE() {
-    sudo apt -y install --no-install-recommends mate-desktop-environment-core mate-themes mate-session-manager xinit mate-terminal mate-applets pluma xserver-xorg
-    sudo apt -y install mate-desktop caja-admin caja-gtkhash caja-open-terminal caja-wallpaper atril engrampa eom mozo mate-applet-appmenu mate-applet-brisk-menu mate-media mate-menu mate-power-manager mate-screensaver mate-tweak mate-utils mate-window-buttons-applet mate-window-menu-applet gnome-system-tools lightdm lightdm-gtk-greeter-settings synaptic gvfs-backends gvfs-fuse
+    sudo apt -y install --no-install-recommends mate-desktop-environment-core mate-themes mate-session-manager xinit mate-terminal mate-applets pluma xserver-xorg --install-recommends mate-desktop caja-admin caja-gtkhash caja-open-terminal caja-wallpaper atril engrampa eom mozo mate-applet-appmenu mate-applet-brisk-menu mate-media mate-menu mate-power-manager mate-screensaver mate-tweak mate-utils mate-window-buttons-applet mate-window-menu-applet gnome-system-tools lightdm lightdm-gtk-greeter-settings synaptic gvfs-backends gvfs-fuse
 	sudo apt clean
 }
 
 function installXFCE() {
-    sudo apt -y install --no-install-recommends xserver-xorg
-	sudo apt -y install xfce4 xfce4-terminal lightdm lightdm-gtk-greeter-settings xfce4-datetime-plugin xfce4-netload-plugin xfce4-taskmanager xfce4-appmenu-plugin xfce4-power-manager thunar-archive-plugin thunar-gtkhash evince menulibre mousepad pragha ristretto synaptic gvfs-backends gvfs-fuse
+    sudo apt -y install --no-install-recommends xserver-xorg --install-recommends xfce4 xfce4-terminal lightdm lightdm-gtk-greeter-settings xfce4-datetime-plugin xfce4-netload-plugin xfce4-taskmanager xfce4-appmenu-plugin xfce4-power-manager thunar-archive-plugin thunar-gtkhash evince menulibre mousepad pragha ristretto synaptic gvfs-backends gvfs-fuse
 	sudo apt clean
 }
 
