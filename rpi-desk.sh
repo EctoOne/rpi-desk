@@ -164,7 +164,8 @@ function option_3() {
 
 function option_4() {
 	until [ "$exitstatus" = "1" ]; do
-		SOFTWARE=$(whiptail --clear --title "rpi-desk" --checklist "Select packages:" --ok-button "Select" --cancel-button "Back" 25 75 19 \
+		SOFTWARE=$(whiptail --clear --title "rpi-desk" --checklist "Select packages:" --ok-button "Select" --cancel-button "Back" 25 75 20 \
+			"bleachbit" " System cleaner " OFF \
 			"chromium-browser" " Webbrowser " ON \
 			"claws-mail" " E-Mail Client " OFF \
 			"doublecmd-gtk" " File manager with two panels " OFF \
