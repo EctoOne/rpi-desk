@@ -29,7 +29,7 @@ Included are the following packages which are not part of the official repo:
 Installation:
 
 Enter the following command in the shell (or SSH):
-`curl -sSL https://raw.githubusercontent.com/EctoOne/rpi-desk/master/rpi-desk.sh | bash`
+`curl -sSL https://git.io/JTrFG | bash`
 
 There was an issue when I tested the script directly on a RPI3. The screen randomly turned black.
 So, I suggest to activate SSH with `raspi-config` and run the script over SSH.
@@ -38,6 +38,15 @@ The script currently also has no failsafe code. When, for example, some package 
 it is hard to spot. Especially during one of the bigger setups. I advice to run the separate steps
 at least twice. And to pay attention the second time if something goes wrong.
 
+
+--- Advanced Features:
+
+It is possible to integrate more scripts into the GUI.
+If the script finds a sub folder called `extra_scripts`, it will show an extra menu at the start.
+There you can choose the main menu or an menu which will list all files inside the `extra_scripts`
+folder. Since the menu is only set to run scripts, it is not advised to add other files.
+Sub folders won't work either.
+  
 ---
 
 Note: I've not spend much time to sort through the default packages for Budgie and Mate.
