@@ -242,6 +242,7 @@ function tmm3() {
 
 function vscodei() {
 	wget https://aka.ms/linux-armhf-deb && sudo dpkg -i linux-armhf-deb || do_error
+	sudo sed -i 's/arch=amd64,arm64,armhf/arch=armhf/g' /etc/apt/sources.list.d/vscode.list
 	rm -f linux-armhf-deb
 }
 
